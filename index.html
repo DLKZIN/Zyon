@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ZYON — soluções digitais, desenvolvimento web e tecnologia para negócios.">
+<meta name="theme-color" content="#101827">
+<title>ZYON — Soluções Digitais</title>
+<style>
+:root{--bg:#0b1220;--panel:#111c2e;--text:#f4f7fb;--muted:#a8b4c7;--accent:#6c8cff;--line:#26354d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;background:#0b1220ed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:5}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:1.45rem;font-weight:850;letter-spacing:.18em}.brand span{color:var(--accent)}
+nav{display:flex;gap:24px;color:var(--muted);font-size:.92rem}nav a:hover{color:white}
+.hero{padding:94px 0 78px;background:radial-gradient(ellipse at 80% 20%,#243b6970,transparent 48%)}
+.eyebrow{color:#9bb1ff;text-transform:uppercase;letter-spacing:.17em;font-size:.76rem;font-weight:750}
+h1{font-size:clamp(2.5rem,7vw,5.2rem);line-height:1.04;letter-spacing:-.055em;margin:18px 0;max-width:850px}
+h1 em{font-style:normal;color:#91a8ff}.lead{max-width:650px;color:var(--muted);font-size:1.12rem}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;padding:12px 19px;border-radius:9px;font-weight:700;border:1px solid var(--line)}.primary{background:var(--accent);border-color:var(--accent);color:#071020}.btn:hover{transform:translateY(-1px)}
+section{padding:70px 0}.section-head{max-width:650px;margin-bottom:30px}h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 12px;letter-spacing:-.035em}.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:linear-gradient(145deg,#142139,#0f1929);border:1px solid var(--line);border-radius:15px;padding:23px}.card .num{color:#91a8ff;font-size:.8rem;letter-spacing:.12em;font-weight:800}.card h3{margin:10px 0 7px;font-size:1.2rem}.card p{margin:0;color:var(--muted)}
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.step{border-top:2px solid var(--accent);padding:16px 12px 0}.step b{display:block;margin-bottom:6px}
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}.statement{padding:26px;border:1px solid var(--line);border-radius:15px;background:#111c2e}.statement strong{font-size:1.4rem;line-height:1.3}
+.contact{background:linear-gradient(120deg,#172849,#111c2e);border:1px solid var(--line);border-radius:18px;padding:30px}
+footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+@media(max-width:700px){nav{gap:12px;font-size:.8rem}.grid{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.hero{padding:72px 0 58px}}
+@media(max-width:430px){nav a:nth-child(2){display:none}.nav{height:62px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#inicio" aria-label="ZYON início">ZYON<span>.</span></a><nav><a href="#solucoes">Soluções</a><a href="#processo">Processo</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav></div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap">
+<div class="eyebrow">Tecnologia aplicada a negócios</div>
+<h1>Ideias que se tornam <em>soluções digitais.</em></h1>
+<p class="lead">A ZYON desenvolve experiências digitais, sites e ferramentas que ajudam negócios a trabalhar melhor, atender pessoas e crescer com clareza.</p>
+<div class="actions"><a class="btn primary" href="#contato">Fale sobre seu projeto</a><a class="btn" href="#solucoes">Conheça as soluções</a></div>
+</div></section>
+<section id="solucoes"><div class="wrap"><div class="section-head"><div class="eyebrow">O que fazemos</div><h2>Soluções para o próximo passo do seu negócio.</h2><p class="muted">Começamos entendendo o problema. Depois, desenhamos e desenvolvemos a solução adequada.</p></div>
+<div class="grid">
+<article class="card"><div class="num">01 / WEB</div><h3>Sites e presença digital</h3><p>Sites institucionais, páginas de apresentação, portfólios e landing pages responsivas.</p></article>
+<article class="card"><div class="num">02 / SYSTEMS</div><h3>Sistemas web</h3><p>Painéis, ferramentas internas, cadastros e aplicações para organizar operações.</p></article>
+<article class="card"><div class="num">03 / COMMERCE</div><h3>Comércio digital</h3><p>Catálogos, vitrines digitais e experiências para apresentar produtos e serviços.</p></article>
+<article class="card"><div class="num">04 / AUTOMATION</div><h3>Automação de processos</h3><p>Fluxos digitais para reduzir tarefas repetitivas e conectar etapas do trabalho.</p></article>
+</div></div></section>
+<section id="processo"><div class="wrap"><div class="section-head"><div class="eyebrow">Como trabalhamos</div><h2>Do desafio à entrega, com método.</h2><p class="muted">Cada projeto tem escopo, etapas e critérios de qualidade definidos antes do desenvolvimento.</p></div>
+<div class="steps"><div class="step"><b>01. Entender</b><span class="muted">Conhecemos o objetivo e as necessidades.</span></div><div class="step"><b>02. Planejar</b><span class="muted">Definimos escopo, prazo e investimento.</span></div><div class="step"><b>03. Desenvolver</b><span class="muted">Construímos e testamos a solução.</span></div><div class="step"><b>04. Entregar</b><span class="muted">Apresentamos o resultado e próximos passos.</span></div></div></div></section>
+<section id="sobre"><div class="wrap about"><div><div class="eyebrow">Sobre a ZYON</div><h2>Tecnologia com propósito. Soluções com direção.</h2><p class="muted">A ZYON é uma marca em desenvolvimento dedicada a criar soluções digitais práticas e acessíveis. Nosso foco é transformar necessidades reais em projetos claros, funcionais e bem executados.</p></div><div class="statement"><strong>Menos complexidade. Mais possibilidades.</strong><p class="muted">Uma abordagem direta para construir o que seu negócio precisa.</p></div></div></section>
+<section id="contato"><div class="wrap"><div class="contact"><div class="eyebrow">Vamos conversar</div><h2>Conte um pouco sobre seu projeto.</h2><p class="muted">Este formulário é uma demonstração inicial. Ele ainda não envia mensagens; será conectado a um canal de contato quando a operação estiver configurada.</p>
+<form id="contactForm"><label for="name">Seu nome ou empresa</label><input id="name" required placeholder="Como podemos chamar você?" style="display:block;width:100%;margin:7px 0 14px;padding:13px;border-radius:8px;border:1px solid #40516e;background:#0b1220;color:white">
+<label for="project">O que você precisa?</label><textarea id="project" required rows="4" placeholder="Descreva brevemente sua ideia..." style="display:block;width:100%;margin:7px 0 16px;padding:13px;border-radius:8px;border:1px solid #40516e;background:#0b1220;color:white;resize:vertical"></textarea>
+<button class="btn primary" type="submit">Preparar mensagem</button><p id="notice" class="muted" aria-live="polite"></p></form>
+</div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> ZYON. Todos os direitos reservados. <span style="float:right">Projeto demonstrativo em desenvolvimento.</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();const n=document.getElementById('name').value.trim();const p=document.getElementById('project').value.trim();document.getElementById('notice').textContent='Mensagem preparada para revisão: '+n+'. O envio ainda não está conectado.';});
+</script>
+</body></html>
